@@ -49,6 +49,7 @@ Thumbs.db
 _ReSharper.*/
 bin/
 obj/
+*.DotSettings
 
 # Project
 *.properties
