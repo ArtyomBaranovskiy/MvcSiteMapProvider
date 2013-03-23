@@ -17,12 +17,12 @@ using MvcSiteMapProvider.External;
 
 #endregion
 
-namespace MvcSiteMapProvider
+namespace MvcSiteMapProvider.Core
 {
     /// <summary>
     /// DefaultSiteMapProvider class
     /// </summary>
-    public class DefaultSiteMapProvider
+    public class SiteMapProviderBase
         : StaticSiteMapProvider
     {
         #region Attribute names
@@ -149,7 +149,7 @@ namespace MvcSiteMapProvider
         /// <summary>
         /// Initializes a new instance of the <see cref="DefaultSiteMapProvider"/> class.
         /// </summary>
-        public DefaultSiteMapProvider()
+		public SiteMapProviderBase()
         {
             CacheDuration = 5;
             cacheKey = "__MVCSITEMAP_" + Guid.NewGuid().ToString();
