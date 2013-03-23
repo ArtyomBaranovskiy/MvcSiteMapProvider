@@ -15,3 +15,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyFileVersionAttribute("3.3.4.0")]
 [assembly: AssemblyDelaySignAttribute(false)]
 
+[assembly: InternalsVisibleTo("MvcSiteMapProviderTests")]

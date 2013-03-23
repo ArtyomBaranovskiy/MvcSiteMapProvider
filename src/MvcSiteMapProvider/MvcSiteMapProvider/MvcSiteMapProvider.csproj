@@ -45,9 +45,6 @@
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>MvcSiteMapProvider.snk</AssemblyOriginatorKeyFile>
-  </PropertyGroup>
   <ItemGroup Condition=" '$(DefineConstants)' != 'NET35' ">
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
   </ItemGroup>
@@ -150,7 +147,6 @@
     <Compile Include="XElementExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="MvcSiteMapProvider.snk" />
     <None Include="MvcSiteMapSchema.xsd">
       <SubType>Designer</SubType>
     </None>
