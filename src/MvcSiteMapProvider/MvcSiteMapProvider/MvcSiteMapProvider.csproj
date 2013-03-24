@@ -67,12 +67,16 @@
     <Compile Include="AclModuleNotSupportedException.cs" />
     <Compile Include="ControllerExtensions.cs" />
     <Compile Include="Core\SiteMapProviderBase.cs" />
+    <Compile Include="Core\SiteMapProviderBaseConfiguration.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="External\HttpContextMethodOverrider.cs" />
     <Compile Include="External\HttpRequestMethodOverrider.cs" />
     <Compile Include="External\Dynamic.cs" />
     <Compile Include="External\ObjectCopier.cs" />
     <Compile Include="Filters\AttributeTarget.cs" />
     <Compile Include="Filters\SiteMapTitleTarget.cs" />
+    <Compile Include="Caching\CachingSiteMapProvider.cs" />
+    <Compile Include="Caching\CachingSiteMapProviderConfiguration.cs" />
     <Compile Include="UrlResolverException.cs" />
     <Compile Include="DefaultSiteMapNodeUrlResolver.cs" />
     <Compile Include="DefaultSiteMapProviderEventHandler.cs" />
@@ -106,6 +110,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Internal\MvcSiteMapProviderViewEngine.cs" />
+    <Compile Include="Validation\Guard.cs" />
     <Compile Include="Web\Html\HtmlHelperExtensions.cs" />
     <Compile Include="Web\Html\MenuHelper.cs">
       <SubType>Code</SubType>

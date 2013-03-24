@@ -1,9 +1,9 @@
-﻿using MvcSiteMapProvider.Core;
+﻿using MvcSiteMapProvider.Caching;
 
 namespace MvcSiteMapProvider
 {
 	/// <summary>
 	/// DefaultSiteMapProvider class
 	/// </summary>
-	public class DefaultSiteMapProvider : SiteMapProviderBase {}
+	public class DefaultSiteMapProvider : CachingSiteMapProvider { }
 }

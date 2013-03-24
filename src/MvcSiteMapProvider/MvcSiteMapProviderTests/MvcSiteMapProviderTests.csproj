@@ -45,8 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caching\CachingSiteMapProviderConfigurationTest.cs" />
+    <Compile Include="Core\SiteMapProviderBaseConfigurationTest.cs" />
     <Compile Include="DefaultSiteMapProvider\ConstructorTest.cs" />
+    <Compile Include="Extensions\StringExtensionsTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\GuardTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
